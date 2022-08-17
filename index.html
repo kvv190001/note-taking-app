@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Viet Khue Vu">
+    <meta name="title" content="Personal Project - Note Taker app">
+    <title>Note Taker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <h1>Note Taker</h1>
+    <div id="input-form">
+        <input type="text" name="noteTitle" id="noteTitle" placeholder="Title">
+        <textarea id="input-el" placeholder="Take a note..."></textarea>
+        <button id="input-btn">Add Note</button>
+    </div>
+    <div id="note-el">
+        <!-- <div class="ind-note" data-noteid = "sth3">
+            <h2>Note 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam pariatur corrupti corporis repudiandae eaque quod, voluptatum itaque autem quo eos est numquam saepe expedita esse soluta nisi voluptatibus blanditiis ullam?</p>
+            <div class="group-btn">
+                <button class="note-btn delete" id="sth">View Detail</button>
+                <button class="note-btn detail id="sth2">Delete</button>
+            </div>
+        </div>  -->
+    </div>
+
+    <div class="view-detail-note">
+        <div class="popup">
+          <div class="content">
+              <div id="edit-note">
+                <input type="text" id="edit-title" placeholder="Title" >
+                <textarea id="edit-input-text" placeholder="Take a note..." ></textarea>
+              </div>
+              <div id="note-footer">
+                <div id="date-time">
+                </div>
+                <div id="view-note-btn">
+                  <button id="close">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</body>
+
+
+
+</html>
